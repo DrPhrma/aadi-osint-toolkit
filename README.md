@@ -25,6 +25,11 @@ aadi_osint_toolkit/
 ├── image_metadata.py        ← EXIF extraction from images
 ├── keyword_tracker.py       ← Public keyword search (HN, Reddit, GitHub, etc.)
 ├── report_generator.py      ← TXT + HTML report builder
+├── email_investigator.py    ← Email investigator
+├── ip_tracker.py            ← Tracks down IP
+├── phone_lookup.py          ← Extracts publicly available data
+├── website_scraper.py       ← Extracts available data on websites
+├── url_post_extractor.py    ← Extracts posts from urls
 │
 ├── sites_config.json        ← Customisable site list for username checking
 ├── requirements.txt         ← Python dependencies
@@ -42,7 +47,7 @@ aadi_osint_toolkit/
 ### 1. Clone / Download the project
 
 ```bash
-git clone https://github.com/your-repo/aadi-osint-toolkit.git
+git clone https://github.com/DrPhrma/aadi-osint-toolkit.git
 cd aadi-osint-toolkit
 ```
 
