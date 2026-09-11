@@ -1,0 +1,21 @@
+# Aadi OSINT Toolkit — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── Core UI ───────────────────────────────────────────────────────────────────
+rich>=13.0.0             # Beautiful terminal output, tables, progress bars
+
+# ── HTTP / Networking ─────────────────────────────────────────────────────────
+requests>=2.28.0         # HTTP requests for username checking & keyword APIs
+dnspython>=2.3.0         # DNS record lookups (A, MX, TXT, NS, CNAME)
+
+# ── Image Metadata ────────────────────────────────────────────────────────────
+Pillow>=9.0.0            # EXIF extraction from JPEG/PNG/TIFF images
+
+# ── HTML Parsing ──────────────────────────────────────────────────────────────
+beautifulsoup4>=4.11.0   # HTML parsing for website scraper
+
+# ── Phone Number Validation ───────────────────────────────────────────────────
+phonenumbers>=8.12.0     # International phone number validation & carrier lookup
+
+# ── WHOIS (optional but recommended) ─────────────────────────────────────────
+python-whois>=0.8.0      # Domain registration / WHOIS data
