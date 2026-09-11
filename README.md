@@ -1,4 +1,7 @@
 # 🔍 Aadi OSINT Toolkit
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-yellow.svg)](https://www.python.org/)
+[![Educational](https://img.shields.io/badge/Purpose-Educational-green.svg)](#)
 
 ```
   ____          ____  _____ _   _ _______   _______ ____   ____  _     _  _______ _______
